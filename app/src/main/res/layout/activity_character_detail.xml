@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".CharacterDetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="4dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:src="@drawable/goku_normal"
+            android:background="#8B80CC"/>
+
+        <TextView
+            android:id="@+id/goku"
+            android:layout_width="74dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imagem"
+            tools:text="Goku"/>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="dedfedededededede"
+            android:textColor="#FFBF00"
+            app:layout_constraintTop_toBottomOf="@+id/goku"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textStyle="italic"/>
+
+
+        <TextView
+            android:id="@+id/base"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Base Ki:"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/description"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/descriptionki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="dedfedededededede"
+            android:textColor="#FFBF00"
+            app:layout_constraintTop_toBottomOf="@+id/base"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Ki:"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/descriptionki"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/ki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="dedfedededededede"
+            android:textColor="#FFBF00"
+            app:layout_constraintTop_toBottomOf="@+id/total"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/afilliation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Afilliation:"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/ki"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/afi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="dedfedededededede"
+            android:textColor="#FFBF00"
+            app:layout_constraintTop_toBottomOf="@+id/afilliation"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textStyle="italic"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
