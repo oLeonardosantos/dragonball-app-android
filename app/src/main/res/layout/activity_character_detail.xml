@@ -29,16 +29,16 @@
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp"
             tools:src="@drawable/goku_normal"
-            android:background="#8B80CC"/>
+            android:background="#0253D0"/>
 
         <TextView
             android:id="@+id/goku"
-            android:layout_width="74dp"
-            android:layout_height="45dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="40sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imagem"
@@ -51,7 +51,7 @@
             tools:text="dedfedededededede"
             android:textColor="#FFBF00"
             app:layout_constraintTop_toBottomOf="@+id/goku"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:layout_marginTop="2dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
@@ -70,7 +70,7 @@
             android:layout_marginTop="2dp"
             android:layout_marginStart="16dp"
             app:layout_constraintStart_toStartOf="parent"
-            android:textSize="30sp"
+            android:textSize="40sp"
             android:textStyle="bold"/>
 
         <TextView
@@ -80,7 +80,7 @@
             tools:text="dedfedededededede"
             android:textColor="#FFBF00"
             app:layout_constraintTop_toBottomOf="@+id/base"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:layout_marginTop="2dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
@@ -98,7 +98,7 @@
             android:layout_marginTop="2dp"
             android:layout_marginStart="16dp"
             app:layout_constraintStart_toStartOf="parent"
-            android:textSize="30sp"
+            android:textSize="40sp"
             android:textStyle="bold"/>
 
         <TextView
@@ -108,7 +108,7 @@
             tools:text="dedfedededededede"
             android:textColor="#FFBF00"
             app:layout_constraintTop_toBottomOf="@+id/total"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:layout_marginTop="2dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
@@ -126,7 +126,7 @@
             android:layout_marginTop="2dp"
             android:layout_marginStart="16dp"
             app:layout_constraintStart_toStartOf="parent"
-            android:textSize="30sp"
+            android:textSize="40sp"
             android:textStyle="bold"/>
 
         <TextView
@@ -136,7 +136,7 @@
             tools:text="dedfedededededede"
             android:textColor="#FFBF00"
             app:layout_constraintTop_toBottomOf="@+id/afilliation"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:layout_marginTop="2dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
